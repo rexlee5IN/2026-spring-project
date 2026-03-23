@@ -21,3 +21,11 @@ ehthumbs.db
 Desktop.ini
 desktop.ini
 $RECYCLE.BIN/
+
+# Mr. Wilkins' local Node.js scripts
+/.nvmrc
+/.prettierignore
+/.prettierrc.json
+/node_modules
+/package-lock.json
+/package.json
