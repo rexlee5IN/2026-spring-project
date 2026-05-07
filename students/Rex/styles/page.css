@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    /* TODO Add dark mode styles here. */
+    background-color: black;
+    color: white;
+    font-family: "Sekuya", system-ui;
+}
+
+.light-mode {
+    /* TODO Add light mode styles here. */
+    background-color: white;
+    color: black;
+}
+
+.center {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px dotted white;
+    /* TODO Add margins to center. */
+}
+
+.poem {
+    text-align: center;
+}
+
+footer {
+    /* TODO Add styles */
+    background-color: blue;
+    color: brown;
+    background-image: linear-gradient(to bottom, darkslateblue, darkslategrey);
+}
+
+.light-mode footer {
+    /* TODO Add footer light mode styles here. */
+    background-color: brown;
+    color: blue;
+}
+
+#color-mode-button{
+    background-color:black;
+    color:white;
+    border-radius: 25%;
+    box-shadow: 10px 5px 5px 0 rgb(21, 0, 255);
+}
+
+button{
+    min-width: 40px;
+}
